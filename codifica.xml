@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Prologo -->
+
+<!-- Body -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<!-- Contiene descrizione del file  -->
+			<titleStmt>
+				<title xml:lang="fr">Trois premières conférences à l'Université</title>
+				<title xml:lang="it">Le prime tre conferenze all'Università</title>
+				<author ref="FDS">Ferdinand De Saussure</author>
+				<respStmt>
+					<!-- Contiene responsabili del contenuto -->
+					<resp>Traduzione a cura di:</resp>
+					<name ref="EF">Emanuele Fadda</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<!-- Gruppo di informazioni relative a un'edizione di un testo -->
+				<edition>
+					Edizione Digitale -
+					<date when="07-2023">Luglio 2023</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto coordinato da:</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica a cura di:</resp>
+					<name xml:id="EF">Eleonora Faustini</name>
+					<name xml:id="RL">Rebecca Lucchesi</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability status="free">
+					<p>Opera ad accesso libero</p>
+				</availability>
+				<date when="2023"> 2023 </date>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<!-- Individua la fonte primaria -->
+				<msDesc>
+					<!-- Specifica per il manoscritto -->
+					<msIdentifier>
+						<country key="CH">Switzerland</country>
+						<settlement>Ginevra</settlement>
+						<repository role="library">Biblioteca di <placeName ref="#ginevra">Ginevra</placeName></repository>
+						<idno>BGE Ms. fr. 3951/1</idno>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="fr">
+								<persName ref="FDS">Ferdinand De Saussure</persName>
+							</author>
+							<title xml:lang="fr">
+								Trois premières conférences à l'Université (cours d'ouverture,
+								<date when="11-1981">Novembre 1891</date>)
+							</title>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="folio">
+							<supportDesc material="paper">
+								<support>Fogli di carta. </support>
+								<extent>67 pagine e un foglietto in particolare è costituito da 30 + 15 + 22 pagine più un foglietto </extent>
+								<condition>Le pagine sono in buono stato non presentano danni rilevanti, le pagine presentano molte cancellature da parte dell' autore ma comunque l'opera risulta  abbastanza leggibile. </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" ruledLines="20 30">
+									<p>Le pagine sono costituite in media da 20 e 30 righe, presentano note sopra e sotto il testo e molte cancellature </p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<p>Il testo è interamente scritto a mano </p>
+						</handDesc>
+						<typeDesc>
+							<p>Il testo è scritto in corsivo e acune volte può essere difficile da comprendere 
+								Essendo degli appunti presentano cancellature, sottolineature e note. Ha utilizzato differenti inchiostri nelle pagine analizzate. </p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<origin notAfter="11-1891">
+							<p>
+								Sono appunti di Ferdinand De Saussure scritti per le prime conferenze all'Università di
+								<placeName ref="#ginevra">Ginevra</placeName>, e alcuni furono  utilizzati per le prime lezioni
+								del corso di
+								<foreign xml:lang="fr">Phonétique du grec et du latin</foreign>. 
+				
+							</p>
+						</origin>
+						<acquisition>
+							<p>
+								Il testo originale venne in seguito acquisito dalla Biblioteca di <placeName ref="#ginevra">Ginevra</placeName>.
+							</p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr">Francese</language>
+			</langUsage>
+			<textDesc>
+				<channel mode="ws" />
+				<constitution type="single" />
+				<derivation type="original" />
+				<domain type="education" />
+				<factuality type="fact" />
+				<interaction type="partial" active="singular" passive="group" />
+				<preparedness type="draft" />
+				<purpose type="inform" degree="high" />
+			</textDesc>
+			<settingDesc>
+				<setting>
+					<name>
+						Testi registrati nella Biblioteca di
+						<placeName>Ginevra</placeName>,
+						<country>Svizzera</country>.
+					</name>
+					<time>
+						<date when="11-1891">Novembre 1891</date>
+					</time>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" xml:id="Pag23"> 
+			<graphic url="ms_fr_03951_01_1_p023.jpg" width="3259.36364px" height="4760.36364px" />
+			<zone ulx="619" uly="521" lrx="2803" lry="663" xml:id="P23Riga1" />	 <!-- France suivent allees -->
+			<zone ulx="639" uly="683" lrx="2792" lry="801" xml:id="P23Riga2" />	 <!-- disant encore bon soire -->
+			<zone ulx="625" uly="821" lrx="2814" lry="958" xml:id="P23Riga3" />	 <!-- se soient reveilles -->
+			<zone ulx="659" uly="990" lrx="2896" lry="1081" xml:id="P23Riga4" />	<!-- en francaise, apres s'etre -->
+			<zone ulx="973" uly="1174" lrx="2889" lry="1251" xml:id="P23Riga5" />   <!-- presque toute le verites -->
+			<zone ulx="1012" uly="1288" lrx="2834" lry="1328" xml:id="P23Riga6" />  <!-- ont ce caracter d'etre si simples -->
+			<zone ulx="676" uly="1325" lrx="2719" lry="1381" xml:id="P23Riga7" />   <!-- du language seul aussi simples-->
+			<zone ulx="321" uly="1437" lrx="2858" lry="1530" xml:id="P23Riga8" />   <!-- de leur derni / tellement qu'on -->
+			<zone ulx="324" uly="1653" lrx="2844" lry="1667" xml:id="P23Riga9" />   <!-- de verites de ell. del la Palice -->
+			<zone ulx="657" uly="1789" lrx="2796" lry="1813" xml:id="P23Riga10" />  <!-- =ment qu'<gap> a quelque pudeur -->
+			<zone ulx="706" uly="1944" lrx="2842" lry="1976" xml:id="P23Riga11" />  <!-- <gap> qu'aussi longtemps -->
+			<zone ulx="722" uly="2088" lrx="2825" lry="2172" xml:id="P23Riga12" />  <!-- on etre en prepetuel -->
+			<zone ulx="737" uly="2196" lrx="2903" lry="2264" xml:id="P23Riga13" />  <!-- <gap> du bon seus de l'auditoire -->
+			<zone ulx="745" uly="2360" lrx="2370" lry="2422" xml:id="P23Riga14" />  <!-- a l'instaut ou on se touvra -->
+			<zone ulx="810" uly="2558" lrx="2804" lry="2585" xml:id="P23Riga15" />  <!-- on a presque la pudeur de -->
+			<zone ulx="849" uly="2632" lrx="2909" lry="2803" xml:id="P23Riga16" />  <!-- <gap> <gap> Il n'existe pas d'oject -->
+			<zone ulx="690" uly="2747" lrx="2850" lry="2956" xml:id="P23Riga17" />  <!-- a la langue qui -->
+			<zone ulx="697" uly="2841" lrx="2866" lry="3075" xml:id="P23Riga18" />  <!-- qui fait toutes le comparisons -->
+			<zone ulx="725" uly="2940" lrx="2810" lry="3150" xml:id="P23Riga19" />  <!-- habituellement aboutissent -->
+			<zone ulx="713" uly="3009" lrx="2866" lry="3270" xml:id="P23Riga20" />  <!-- quelque point. Ce sont ces -->
+			<zone ulx="2209" uly="3137" lrx="2855" lry="3203" xml:id="P23Riga21" /> <!-- qui ont peut-etre e plus retarde [] {questa è scritta tutta} -->
+			<zone ulx="921" uly="3251" lrx="2949" lry="3353" xml:id="P23Riga22" />  <!-- me rejouis vivement -->
+			<zone ulx="341" uly="3465" lrx="2859" lry="3487" xml:id="P23Riga23" />  <!-- je m'etonne -->
+			<zone ulx="1243" uly="3484" lrx="2513" lry="3623" xml:id="P23Riga24" /> <!-- que le premier romaniste -->
+			<zone ulx="809" uly="3573" lrx="2853" lry="3620" xml:id="P23Riga25" />  <!-- Paris / le maitre inconsite -->
+			<zone ulx="803" uly="3717" lrx="2907" lry="3724" xml:id="P23Riga26" />  <!-- d'Europe / qui dirige -->
+			<zone ulx="798" uly="3877" lrx="2857" lry="3949" xml:id="P23Riga27" />  <!-- M. Gaston Paris declare -->
+			<zone ulx="819" uly="4074" lrx="2893" lry="4089" xml:id="P23Riga28" />  <!-- deux de nos locutions -->
+			<zone ulx="861" uly="4178" lrx="2857" lry="4231" xml:id="P23Riga29" />  <!-- Premierement le francais vient -->
+			<zone ulx="880" uly="4341" lrx="2797" lry="4401" xml:id="P23Riga30" />  <!-- bien tel mot chater -->
+			
+			<!--NOTE-->
+			<zone ulx="264" uly="2438" lrx="710" lry="2790" xml:id="P23Nota1" />	<!-- *Nota cancellata* -->
+			<zone ulx="283" uly="4158" lrx="734" lry="4264" xml:id="P23Nota2" />	<!-- T.H.V.P.-->
+			<!--Aggiunte a margine-->
+			<zone ulx="342" uly="3827" lrx="726" lry="4045" xml:id="P23Nota3" />    <!-- mouvement de la philologie -->
+			<zone ulx="376" uly="4243" lrx="720" lry="4477" xml:id="P23Nota4" />    <!-- et les plus innocentes apparence -->
+		</surface>
+		
+		<surface n="2" xml:id="Pag24"> 
+			<graphic url="ms_fr_03951_01_1_p024.jpg" width="3246.86666px" height="4760.86666px" />
+			<zone ulx="879" uly="468" lrx="2864" lry="644"  xml:id = "P24Riga1"/> 	  <!-- francais ne vient -->
+			<zone ulx="908" uly="702" lrx="2810" lry="787" xml:id = "P24Riga2" /> 	  <!-- il est le latin -->
+			<zone ulx="876" uly="865" lrx="2836" lry="940" xml:id = "P24Riga3" /> 	  <!-- pa(?) que cette -->
+			<zone ulx="837" uly="1013" lrx="2864" lry="1084" xml:id = "P24Riga4" />   <!-- (le latin qui -->
+			<zone ulx="869" uly="1166" lrx="2852" lry="1219" xml:id = "P24Riga5" />   <!-- dans telles -->
+			<zone ulx="899" uly="1304" lrx="2836" lry="1404" xml:id = "P24Riga6" />   <!-- Chanter ne vient -->
+			<zone ulx="888" uly="1465" lrx="2854" lry="1537" xml:id = "P24Riga7" />   <!-- mais il est -->
+			<zone ulx="923" uly="1597" lrx="2902" lry="1637" xml:id = "P24Riga8" />   <!-- Autant vaudrait dire -->
+			<zone ulx="939" uly="1784" lrx="2896" lry="1947" xml:id = "P24Riga9" />   <!-- le latin de / apres l'ere -->
+			<zone ulx="947" uly="2069" lrx="2907" lry="2117" xml:id = "P24Riga10" />  <!-- Haute 150 ans -->
+			<zone ulx="947" uly="2189" lrx="2888" lry="2291" xml:id = "P24Riga11" />  <!-- latin cantaee de -->
+			<zone ulx="968" uly="2339" lrx="2883" lry="2445" xml:id = "P24Riga12" />  <!-- de Plaute -->
+			<zone ulx="963" uly="2504" lrx="2795" lry="2568" xml:id = "P24Riga13" />  <!-- -gait peut etre -->
+			<zone ulx="963" uly="2640" lrx="1451" lry="2731" xml:id = "P24Riga14" />  <!-- *Riga di due parole* -->
+			<zone ulx="1002" uly="2663" lrx="1375" lry="2706" xml:id = "P24Riga15" /> <!-- le francais que nous parlons -->
+			<zone ulx="419" uly="2910" lrx="2832" lry="2982" xml:id = "P24Riga16" />  <!-- francais de Montesquieu -->
+			<zone ulx="425" uly="2955" lrx="2791" lry="2993" xml:id = "P24Riga17" />  <!-- de Montaigne, ou de celui -->
+			<zone ulx="1048" uly="3105" lrx="2622" lry="3129" xml:id = "P24Riga18" /> <!-- Froissait, ou de celui -->
+			<zone ulx="1026" uly="3245" lrx="2854" lry="3297" xml:id = "P24Riga19" /> <!-- de Roland; -->
+			<zone ulx="978" uly="3375" lrx="2918" lry="3448" xml:id = "P24Riga20" />  <!-- qu'il est le francais -->
+			<zone ulx="1008" uly="3529" lrx="2795" lry="3551" xml:id = "P24Riga21" /> <!-- celui de la chanson -->
+			<zone ulx="983" uly="3705" lrx="2778" lry="3739" xml:id = "P24Riga22" />  <!-- n'y a aucune -->
+			<zone ulx="999" uly="3804" lrx="2802" lry="3865" xml:id = "P24Riga23" />  <!-- dire alors de meme -->
+			<zone ulx="1028" uly="3995" lrx="2885" lry="4048" xml:id = "P24Riga24" /> <!-- et le latin de Plaute -->
+			<zone ulx="312" uly="4222" lrx="2808" lry="4326" xml:id = "P24Riga25" />  <!-- maniere de parler antehistorique -->
+			<zone ulx="1093" uly="4378" lrx="2155" lry="4469" xml:id = "P24Riga26" /> <!-- maniere latine de parler. {questa è scritta tutta} -->
+			
+			<!-- NOTE -->
+			<zone ulx="422" uly="3568" lrx="955" lry="3651" xml:id = "P24Nota1" />    <!-- Nota cancellata: aucune raison -->
+			<!--Aggiunte a margine -->
+			<zone ulx="422" uly="1264" lrx="723" lry="1432" xml:id = "P24Nota2" />    <!-- dite -->
+			<zone ulx="435" uly="2915" lrx="1534" lry="2973" xml:id = "P24Nota3" />   <!-- français de Montesquieu, ou de celui -->
+			<zone ulx="371" uly="3371" lrx="894" lry="3509" xml:id = "P24Nota4" />    <!-- cela est une -->
+		</surface> 
+	</facsimile>
+
+	<text xml:lang="fr" xml:id="Pag23-24fr" subtype="manuscript">
+		<body>
+			<div type="pagina" n="23">
+				<pb n="23" facs="#P23Intera" />
+				<!-- Inizio pagina -->
+				<ab type="pericope" n="1" xml:id="Pag23Pericope1">
+					<lb xml:id="P23R1" n="1" facs="#P23Riga1" />
+					<add place="above">gens de</add>
+					<country>France</country> 
+					<del rend="overstrike">
+						soient alleés de coucher 
+						<add place="above">en scrit</add>
+						en se
+					</del>
+					
+					<lb xml:id="P23R2" n="2" facs="#P23Riga2" />
+					<del rend="overstrike"><!-- Questo <del> va a capo... -->
+						disant
+						<del rend="overstrike">encore</del>
+						<subst>
+							<del rend="overstrike">bon soire</del>
+							<add place="above">bon nuit</add>
+						</subst>
+						en latin et se
+					
+					<lb xml:id="P23R3" n="3" facs="#P23Riga3" />
+						soient
+					</del> <!-- ...e si chiude qui. -->
+					<add place ="above">se sin</add>
+					se soient réveillés
+					<add place="above">
+						<gap reason="illegible" atLeast="9" atMost="12" unit="chars" />
+					</add>, en se disant
+					<emph rend="underline">
+						<mentioned xml:lang="fr">bonjour</mentioned>
+					</emph>
+					
+					<lb xml:id="P23R4" n="4" facs="#P23Riga4" />
+					en français, après s'être endormis la veille en se 
+						<choice>
+							<abbr>dis</abbr>
+							<expan resp="EmanueleF">disant</expan>
+							<orig></orig>
+							<reg resp="EmanueleF">
+								<choice>
+									<orig>
+										<emph rend="underline">bon nuit</emph>
+									</orig>
+									<reg resp="EmanueleF">
+										<mentioned xml:lang="fr">bonne nuit</mentioned>
+									</reg>
+								</choice>
+								en latin
+							</reg>
+						</choice>
+				</ab>
+				<ab>
+					<lb xml:id="P23R5" n="5" facs="#P23Riga5" /> 
+					<del rend="overstrike"><!-- Blocco cancellato -->
+						Presque toute, les vérités 
+						<add place="above">fondantes</add>
+						de la science
+						
+					<lb xml:id="P23R6" n="6" facs="#P23Riga6" />
+						<del rend="overstrike">
+							<gap reason="illegible" quantity="11" unit="chars" />
+						</del>
+						ont ce caracter d'être si simples
+						
+					<lb xml:id="P23R7" n="7" facs="#P23Riga7" />
+						<del rend="overstrike">du language seul aussi simples que cela</del> 
+						
+					<lb xml:id="P23R8" n="8" facs="#P23Riga8" />
+						<subst>
+							<del rend="overstrike">tellement qu'on de
+								<unclear reason="eccentric_ductus">seul</unclear>
+								on ce caracter
+							</del>
+							<add  place ="above">de leur
+								<choice>
+									<abbr>derni</abbr>
+									<expan resp = "RL">dernier</expan>
+								</choice>
+								<gap reason="illegible" atLeast="5" atMost="7" unit="chars"/>
+								<del rend="overstrike">
+									<unclear reason="eccentric_ductus">C.G.D.</unclear>
+								</del>
+								qu'elles pouvant
+							</add>
+						</subst>
+						
+					<lb xml:id="P23R9" n="9" facs="#P23Riga9" />
+						<del rend="overstrike">rèpelier d'être</del>
+						des vérités de <abbr>ell<am>.</am></abbr> de la Palice, telle-
+						
+					<lb xml:id="P23R10" n="10" facs="#P23Riga10" />
+						=ment
+						<del rend="overstrike">
+							qu'
+							<gap reason="illegible" quantity="3" unit="chars"/>
+							a quelque pudeur à les
+						</del>
+						
+					<lb xml:id="P23R11" n="11" facs="#P23Riga11" />
+						<del rend="overstrike">
+							<gap reason="illegible" quantity="7" unit="chars" />
+						</del>
+						<del rend="overstrike">
+							qu'aussi longtemps qu'on les 
+							<gap reason="illegible" quantity="6" unit="chars" />
+						</del>
+						
+					<lb xml:id="P23R12" n="12" facs="#P23Riga12" />
+						<del rend="overstrike"><!-- Cancellatura busuferica -->
+							on
+							<unclear reason="illegible">etre</unclear>
+							en perpetuel danger de se reveiller
+						
+					<lb xml:id="P23R13" n="13" facs="#P23Riga13" />
+							<gap reason="illegible" atLeast="5" atMost="7" unit="chars" />
+							du bon leur del l'auditoire,
+							<subst>
+								<del rend="overstrike">mais</del>
+								<add place ="above">et</add>
+							</subst>
+						
+					<lb xml:id="P23R14" n="14" facs="#P23Riga14" />
+							à
+							<del rend="overstrike">l'instant où on se tourne</del>
+						</del><!-- Cancellatura busuferica -->
+					
+					<lb xml:id="P23R15" n="15" facs="#P23Riga15" />
+						on a presque la pudeur de
+					</del><!-- Blocco cancellato -->
+					<del rend="overstrike">vouloir</del>
+					
+					<lb xml:id="P23R16" n="16" facs="#P23Riga16" />
+					<del rend="overstrike">mais</del>
+					<del rend="overstrike">
+						<gap reason="illegible" atLeast="3" atMost="4" unit="chars" />
+					</del>
+				</ab>
+				<ab type="pericope" n="2" xml:id="Pag23Pericope2">
+					Il n'existe pas d'objet
+					<choice>
+						<abbr>tt</abbr>
+						<expan resp="EmanueleF">tout</expan>
+					</choice>
+					à fait combarable
+					
+					<lb xml:id="P23R17" n="17" facs="#P23Riga17" />
+					à la
+					<term ref="#langue">langue</term>
+					qui est un être très complexe,
+					<del rend="overstrike">
+						<gap reason="illegible" atLeast="5" atMost="8" unit="chars" />
+					</del>
+					et c'est ce
+					
+					<lb xml:id="P23R18" n="18" facs="#P23Riga18" />
+					qui fait
+					<choice>
+						<abbr>tts</abbr>
+						<expan  resp="EmanueleF">toutes</expan>
+					</choice>
+					le
+					<choice>
+						<abbr>compar<am>.</am></abbr>
+						<expan  resp="EmanueleF">
+							<term ref="#comparaisons">comparaisons</term>
+						</expan>
+					</choice>
+					et
+					<choice>
+						<abbr>tts</abbr>
+						<expan  resp="EmanueleF">toutes</expan>
+					</choice>
+					les
+					<term ref="#images">images</term>
+					dont
+					<choice>
+						<abbr>ns</abbr>
+						<expan resp="EmanueleF">nous </expan>
+						<abbr>ns</abbr>
+						<expan resp="EmanueleF">nous</expan>
+						<abbr>serv</abbr>
+						<expan resp="EmanueleF">servons</expan>
+					</choice>
+					
+					<lb xml:id="P23R19" n="19" facs="#P23Riga19" />
+					habituellement aboutissent
+					<choice>
+						<abbr>régul<am>.</am></abbr>
+						<expan resp="EmanueleF">régulièrement</expan>
+					</choice>
+					à
+					<choice>
+						<abbr>ns</abbr>
+						<expan resp="EmanueleF">nous </expan>
+					</choice>
+					en
+					<choice>
+						<abbr>don</abbr>
+						<expan resp="EmanueleF">donner</expan>
+						<orig>1</orig>
+						<reg resp="EmanueleF">une</reg>
+					</choice>
+					<term ref="#idée">idée</term>
+					fausse par
+					
+					<lb xml:id="P23R20" n="20" facs="#P23Riga20" />
+					quelque point. Ce sont ces embûches tendues derrière chaque 
+					<choice>
+						<abbr>locuti<am>.</am></abbr>
+						<expan resp="EmanueleF">locution</expan>
+					</choice>
+					
+					<lb xml:id="P23R21" n="21" facs="#P23Riga21" />
+					qui ont peut-être le
+					<choice>
+						<abbr>+</abbr>
+						<expan resp="EmanueleF">plus</expan>
+					</choice> 
+					retardé 
+					<choice>
+						<orig>
+							<gap reason="illegile" atLeast="4" atMost="5" unit="chars"/>
+						</orig>
+						<reg resp="EmanueleF">[]</reg>
+					</choice>
+				</ab>
+				
+				<ab type="pericope" n="3" xml:id="Pag23Pericope3">
+					<lb xml:id="P23R22" n="22" facs="#P23Riga22" />
+					me réjouis
+					<choice>
+						<abbr>vivmt</abbr>
+						<expan resp="EmanueleF">vivement</expan>
+					</choice> 
+					
+					<lb xml:id="P23R23" n="23" facs="#P23Riga23" />
+					Je
+					<del rend="overstrike">
+						<gap reason="illegible" quantity="2" unit="chars" />
+						m'etonne nullement quel le premier 
+						<add place="above">
+							<gap reason="illegible" quantity="4" unit="words" />
+						</add>
+					</del>
+					<choice>
+						<orig>que</orig>
+						<reg resp="EmanueleF"></reg>
+					</choice>
+					<add place="below">
+						<del rend="overstrike">pas</del>
+					</add>
+					<gap reason="illegible" quantity="5" unit="chars"/>
+					
+					<lb xml:id="P23R24" n="24" facs="#P23Riga24" />
+					que le
+					<choice>
+						<abbr>per</abbr>
+						<expan resp="EmanueleF">premiere</expan>
+					</choice>
+					romaniste de notre temps 
+					<del>M. Gaston</del>
+					
+					<lb xml:id="P23R25" n="25" facs="#P23Riga25" />
+					<del rend="overstrike">Paris,</del>
+					le
+					<subst>
+						<del rend="overstrike">chef reconnu
+							<unclear reason="illegible">par</unclear>
+							tous les
+							<unclear reason="illegible">lavants</unclear>
+						</del>
+						<add place="above">maître incontesté
+							<choice>
+								<orig><gap reason="illegibile" quantity="3" unit="words"/></orig>
+								<reg resp="EmanueleF"></reg>
+							</choice>
+						</add>
+					</subst>
+					
+					<lb xml:id="P23R26" n="26" facs="#P23Riga26" />
+					<del rend="overstrike">d'Europe qui</del>
+					
+					qui dirige 
+					<subst>
+						<del rend="overstrike">à l'heure</del>
+						<add place="above">
+							<date when="1871">
+							<choice>
+								<abbr>depi</abbr>
+								<expan resp="EmanueleF">depuis</expan>
+								<orig>20 an</orig>
+								<reg resp="EmanueleF">vingt ans</reg>
+							</choice>
+							</date>
+						</add>
+					</subst>
+					<choice>
+						<orig>qu'il est</orig>
+						<reg></reg>
+					</choice>
+					tout le
+					
+					<lb xml:id="P23R27" n="27" facs="#P23Riga27" />
+					<add place="margin">
+						<choice>
+							<abbr>
+								<unclear reason="illegible">ment</unclear>
+							</abbr>
+							<expan resp="EmanueleF">mouvement</expan>
+						</choice>
+						de la
+						<choice>
+							<abbr>
+								<unclear reason="illegible">filol</unclear>
+							</abbr>
+							<expan>philologie</expan>
+						</choice>
+						<del rend="overstrike">ait cru</del>
+					</add>
+					<subst>
+						<del rend="overstrike">ait formellement</del>
+						<add place="above"> 
+							<persName>M<am>.</am> 
+								<forename>
+									<choice>
+										<abbr>
+											<unclear reason="eccentric_ductus">Gastn</unclear>
+										</abbr>
+										<expan resp="EmanueleF">Gaston</expan>
+									</choice>
+								</forename>
+								<surname>
+									<choice>
+										<abbr>
+											<unclear reason="eccentric_ductus">Pris</unclear>
+										</abbr>
+										<expan resp="EmanueleF">Paris</expan>
+									</choice>
+								</surname>
+							</persName>
+							, m'ait pas cru inutle de
+						</add>
+					</subst>
+					dèclarer
+					<subst>
+						<del rend="overstrike">la</del>
+						<add place="aboce">une</add>
+					</subst>
+					guerre
+					<add place="above">
+						<subst>
+							<del rend="overstrike">sans merci</del>
+							<add place="above">impitoyable</add>
+						</subst>
+					</add>
+					à
+					<del>ces</del>
+					
+					<lb xml:id="P23R28" n="28" facs="#P23Riga28" />
+					deux
+					<add place="above">
+						<choice>
+							<orig>denus</orig>
+							<reg resp="EmanueleF">de nous</reg>
+						</choice>
+					</add>
+					locutions 
+					<subst>
+						<del rend="overstrike">absolutement</del>
+						<add>les 
+							<choice>
+								<abbr>+</abbr>
+								<expan resp="EmanueleF">plus</expan>
+							</choice>
+						</add>
+					</subst>
+					courantes
+					<add place="margin">
+						et les 
+						<choice>
+							<abbr>+</abbr>
+							<expan resp="EmanueleF">plus</expan>
+						</choice>
+						<unclear reason="eccentric_ductus">innocentes</unclear>
+						en
+						<choice> 
+							<abbr>app</abbr>
+							<expan resp="EmanueleF">apparence</expan>
+						</choice>
+					</add> :
+					
+					<lb xml:id="P23R29" n="29" facs="#P23Riga29" />
+					<choice>
+						<orig>Premièrement</orig>
+						<reg resp="EmanueleF">premièrement :</reg>
+					</choice>
+					<emph rend="underline">le français vient du latin</emph>
+					<choice>
+						<orig></orig>
+						<reg resp="EmanueleF">,</reg>
+					</choice>
+					ou
+					
+					<lb xml:id="P23R30" n="30" facs="#P23Riga30" />
+					bien
+					<del rend="overstrike">t</del>
+					<add place="above">tel
+						<term ref="#mot">mot</term>
+						,
+						<unclear reason="illegibile">par ex.</unclear>
+					</add>
+					<emph rend="underline">
+						<mentioned xml:lang="fr">chanter</mentioned>
+					</emph>
+					<emph rend="underline">
+						vient du latin
+						<mentioned xml:lang="latino">
+							<choice>
+								<abbr>canta</abbr>
+								<expan resp="EmanueleF">cantare</expan>
+							</choice>
+						</mentioned>
+					</emph>
+					.
+				</ab>
+				<ab type="pericope" n="4" xml:id="Pag23Pericope4">
+					Le
+				</ab>
+			</div>
+			
+			<div type="pagina" n="24">
+				<pb n="24" facs="#P24Intera" />
+				<!-- Inizio pagina -->
+				<ab type="pericope" n="1" xml:id="Pag24Pericope1">
+					<lb xml:id="P24R1" n="1" facs="#P24Riga1" />
+					français ne 
+					<emph rend = "underline">vient</emph>
+					pas du latin, mais
+					
+					<lb xml:id="P24R2" n="2" facs="#P24Riga2" />
+					il
+					<emph rend = "underline">est</emph>
+					le latin, 
+					<del> 
+						telle que 
+						<unclear reason="illegible">le </unclear>
+						qu' il se
+					</del>
+					
+					<lb xml:id="P24R3" n="3" facs="#P24Riga3" />
+					<del>
+						<choice>
+							<abbr>pa</abbr>
+							<expan resp="EF">pas</expan>
+						</choice>
+						que cette langue
+						<unclear reason="illegible">se</unclear>
+						parle parlé
+					</del>
+					
+					<lb xml:id="P24R4" n="4" facs="#P24Riga4" />
+					<choice>
+						<orig>(</orig>
+						<reg></reg>
+					</choice>
+					le latin qui
+					<subst>
+						<del rend = "overstrike">est</del>
+						<add place = "above">se
+							<choice>
+								<abbr>tru etr</abbr>
+								<expan resp ="EmanueleF">trouve etre</expan>
+							</choice>
+						</add>
+					</subst>
+					<term ref="#parler">parlé</term>
+					à telle date
+					<add place="above">
+						<choice>
+							<orig>
+								<unclear reason="eccentric_ductus">determin</unclear>
+							</orig>
+							<reg resp="EmanueleF">determinée</reg>
+						</choice>
+					</add>
+					et
+					
+					<lb xml:id="P24R5" n="5" facs="#P24Riga5" />
+					dans
+					<choice>
+						<abbr>tells</abbr>
+						<expan resp = "EmanueleF">telles</expan>
+					</choice> 
+					et telles limites geographiques 
+					<add place="margin">
+						<choice>
+							<abbr>dite</abbr>
+							<expan resp="EmanueleF">determinées</expan>
+						</choice>
+					</add>
+					.
+					
+					<lb xml:id="P24R6" n="6" facs="#P24Riga6" />
+					<emph rend="underline">Chanter</emph>
+					ne
+					<emph rend="underline">vient</emph>
+					pas du latin
+					<emph rend="underline">
+						<mentioned xml:lang="latino">cantare</mentioned>
+					</emph>
+					,
+					
+					<lb xml:id="P24R7" n="7" facs="#P24Riga7" />
+					mais il
+					<emph rend="underline">est</emph>
+					le latin 
+					<emph rend="underline">
+						<mentioned xml:lang="latino">cantare</mentioned>
+					</emph>
+					. 
+					<del rend="overstrike">Contestés</del>
+				</ab>
+				
+				<ab type="pericope" n="2" xml:id="Pag24Pericope2">
+					<lb xml:id="P24R8" n="8" facs="#P24Riga8" /> 
+					Autant vaudrait dire en effet que 
+					
+					<lb xml:id="P24R9" n="9" facs="#P24Riga9" />  
+					<del><!--Blocco cancellato-->
+						aprés 
+						<add place = "above"> le latin de</add>
+						l' ère chretien
+						<emph rend="underline">vient</emph>
+						du latin
+						<add place=" above">de 300 ans</add>
+					
+					<lb xml:id="P24R10" n="10" facs="#P24Riga10" /> 
+						Haute 150 ans avant cette ere; ou 
+						<unclear reason="eccentric_ductus"> que </unclear>
+						le
+					
+					<lb xml:id="P24R11" n="11" facs="#P24Riga11" /> 
+						latin
+						<emph rend = "underline">cantare</emph>
+						de
+						<emph rend = "underline">vient</emph>
+						du cantare 
+					
+					<lb xml:id="P24R12" n="12" facs="#P24Riga12" /> 
+						de Plaute. A ce moment il se pronon-
+					
+					<lb xml:id="P24R13" n="13" facs="#P24Riga13" /> 
+						-çait peut etre dejà kjantare ce qui
+					
+					<lb xml:id="P24R14" n="14" facs="#P24Riga14" /> 
+						est le
+						<gap reason ="illegible" atLeast = "3" atMost="4" unit="chars" />
+					</del><!--Blocco cancellato-->
+					
+					<lb xml:id="P24R15" n="15" facs="#P24Riga15" />
+					le français que nous parlons
+					<emph rend="underline">vient</emph>
+					du
+					
+					<lb xml:id="P24R16" n="16" facs="#P24Riga16" />
+					<subst>
+						<del rend="overstrike">français</del>
+						<add place="margin">
+							<date from="1689" to="1755">
+								français de
+								<persName>
+									<surname>Montesquieu</surname>
+								</persName>
+							</date>
+							, ou
+							<add place="above">
+								<gap reason="illegibile" quantity="2" unit="chars" />
+							</add>
+							de celui
+						</add>
+					</subst>
+					de
+					<date from="1606" to="1684">
+						<persName>
+							<surname>Corneille</surname>
+						</persName>
+					</date>
+					, ou
+					<add place="above">vient</add>
+					de celui 
+					
+					<lb xml:id="P24R17" n="17" facs="#P24Riga17" />
+					de
+					<persName>
+						<surname>Montaigne</surname>
+					</persName>
+					ou de celui de
+					
+					<lb xml:id="P24R18" n="18" facs="#P24Riga18" />
+					<persName>
+						<surname>
+							<unclear reason="eccentric_ductus">Froissait</unclear>
+						</surname>
+					</persName>, ou de celui de la
+					<bibl>
+						<author>Unknown</author>
+						<date when="1090">
+							<choice>
+								<abbr>Chans</abbr>
+								<expan resp="EmanueleF">Chanson</expan>
+							</choice>
+					
+					<lb xml:id="P24R19" n="19" facs="#P24Riga19" />
+							de 
+							<persName>
+								<forename>Roland</forename>
+							</persName>
+						</date>
+					</bibl>
+					; 
+					<add place="margin">cela est une</add>
+					<choice>
+						<orig></orig>
+						<reg resp="EmanueleF">[]</reg>
+					</choice>
+					mais 
+					<add place="above">comme</add>
+					tout le monde dit
+				
+					<lb xml:id="P24R20" n="20" facs="#P24Riga20" />
+					qu'il 
+					<emph rend="underline">est</emph>
+					le
+					<date from="1689" to="1755">
+					français de
+						<persName>
+							<surname>Montesquieu</surname>
+						</persName>
+					</date>
+					, ou
+					
+					<lb xml:id="P24R21" n="21" facs="#P24Riga21" />
+					celui de la  
+					<bibl>
+						<author>Unknown</author>
+						<date when="1090">
+							<choice>
+								<orig>chanson</orig>
+								<reg resp="EmanueleF">Chanson</reg>
+							</choice>
+							de
+							<persName>
+								<forename>Roland</forename>
+							</persName>
+						</date>
+					</bibl>
+					,
+					<del rend="overstrike">et</del>
+					il 
+					
+					<lb xml:id="P24R22" n="22" facs="#P24Riga22" />
+					n'y a 
+					<choice>
+						<abbr>aucu</abbr>
+						<expan resp="EmanueleF">aucune</expan>
+					</choice>
+					raison de
+					<del rend="overstrike">
+						<unclear reason="illegibile">dire</unclear>
+					</del>
+					ne pas
+					
+					<lb xml:id="P24R23" n="23" facs="#P24Riga23" />
+					dire
+					<add place="above">alors</add> 
+					de 
+					<unclear reason="illegibile">même</unclear> 
+					qu'il 
+					<emph rend="underline">est</emph> 
+					le
+					<date from="-0027" to="0014">
+						latin d'
+						<persName>
+							<roleName>Auguste</roleName>
+						</persName>
+					</date>,
+					
+					<lb xml:id="P24R24" n="24" facs="#P24Riga24" />
+					et le
+					<date from="-0255" to="-0184">
+						latine de 
+						<persName>
+							<forename>Plaute</forename>
+						</persName>
+					</date>
+					, et
+					<unclear reason="eccentric_ductus">le</unclear>
+					<del rend="overstrike">latin</del>
+					
+					<lb xml:id="P24R25" n="25" facs="#P24Riga25" />
+					<choice>
+						<abbr>maniè</abbr>
+						<expan resp="EmanueleF">manière</expan>
+					</choice>
+					de 
+					<term ref="#parler">parler</term> 
+					<add place="below">
+						<del rend="overstrike">langue</del>
+					</add>
+					<term ref="#antehistorique">antéhistorique</term> 
+					<del rend="overstrike">dont</del> 
+					qui a précédé la
+					
+					<lb xml:id="P24R26" n="26" facs="#P24Riga26" />
+					<choice>
+						<abbr>manièr</abbr>
+						<expan resp="EmanueleF">manière</expan>
+					</choice>
+					latine de
+					<term ref="#parler">parler</term>
+					.
+				</ab>
+			</div>
+			
+			<!-- Traduzione -->
+			<div type="traduzionepag23">
+				<ab n="1" corresp="#Pag23Pericope1" xml:lang="it">
+					<!--{Pag 22.} Non è mai capitato che le--> genti di Francia si siano svegliate, dicendosi <hi rend="italic">buongiorno</hi> in francese, dopo essersi addormentati il giorno prima dicendosi <hi rend="italic">buonanotte</hi> in latino.
+				</ab>
+				<ab n="2" corresp="#Pag23Pericope2" xml:lang="it">
+					Non c'è nessun oggetto che sia davvero comparabile alla lingua, che è un essere molto complesso, ed è questo che fa che tutte le comparazioni e tutte le immagini di cui noi ci serviamo abitualmente finiscono per darcene un'idea falsa in qualche punto. Si tratta di insidie tese dietro ogni locuzione che hanno forse maggiormente ritardato [ ].
+				</ab>
+				<ab n="3" corresp="#Pag23Pericope3" xml:lang="it">
+					Mi rallegro vivamente che il primo romanista dei nostri tempi, il maestro incontestato che governa da vent'anni tutto il movimento della filologia, Gaston Paris, non abbia ritenuto inutile dichiarare una guerra senza quartiere a due tra le nostre locuzioni più correnti e all'apparenza più innocenti: anzitutto: <hi rend="italic">il francese viene dal latino</hi>, o meglio quella tal parola, p.es. <hi rend="italic">'chanter' viene dal latino 'cantare'</hi>.
+				</ab>
+				<ab n="4" corresp="#Pag23Pericope4" xml:lang="it">
+					Il
+				</ab>
+			</div>
+			<div type="traduzionepag24">
+				<ab n="1" corresp="#Pag24Pericope1" xml:lang="it">
+					francese non <hi rend="italic">viene</hi> dal latino, ma <hi rend="italic">è</hi> il latino che si trova ad essere parlato a tale data determinata e in questi e questi altri limiti geografici determinati. <hi rend="italic">Chanter</hi> non <hi rend="italic">viene</hi> dal latino <hi rend="italic">cantare</hi>, ma <hi rend="italic">è</hi> il latino <hi rend="italic">cantare</hi>.
+				</ab>
+				<ab n="2" corresp="#Pag24Pericope2" xml:lang="it">
+					Tanto varrebbe dire, in effetti, che il francese che noi parliamo <hi rend="italic">viene</hi> dal francese di Montesquieu o da quello di Corneille o viene da quello di Montaigne o da quello di Froissart, o da quello della Chanson de Roland; è una <hi rend="italic">ovvietà</hi>, ma dato che tutti dicono che <hi rend="italic">è</hi> il francese di Montesquieu, o quello della Chanson de Roland, non vi è alcuna ragione di non dire allora allo stesso modo che <hi rend="italic">è</hi> il latino di Augusto, e il latino di Plauto, e la maniera di parlare antestorica che ha preceduto il modo latino di parlare.
+				</ab>
+			</div>
+		</body>
+		
+		<back>
+			<!-- Appendice contentente elementi vari -->
+			<div type="appendice">
+				
+				<!-- Glossario -->
+				<list type="glossario">
+					<label>
+						<term xml:id="langue" xml:lang="fr">Langue</term>
+						<term ref="#langue" xml:lang="it">Lingua</term>
+					</label>
+					<item>
+						<gloss target="#langue" xml:lang="it" source="https://www.treccani.it/enciclopedia/lingua#Linguistica">
+							La <hi rend="bold">lingua</hi> è il complesso delle parole e locuzioni usate da tutto un popolo come mezzo comune per l’espressione e lo scambio di pensieri e sentimenti, con caratteri tali da costituire un organismo storicamente determinato, sottoposto a proprie leggi fonetiche, morfologiche e sintattiche che sono anch’esse parte integrante della lingua. 
+							</gloss>
+					</item>
+					
+					<label>
+						<term xml:id="comparaisons" xml:lang="fr">Comparaison</term>
+						<term ref="#comparaisons" xml:lang="it">Comparazione</term> 
+					</label>
+					<item>
+						<gloss target="#comparaisons" xml:lang="it" source="https://www.nome.me/it/parola/paragone.html"> <!-- Def. presa da Oxford Language -->
+							Una <hi rend="bold">comparazione</hi> è un confronto istituito fra due termini allo scopo di valutarne la diversità o rilevarne l'affinità, talvolta in un ambito più o meno vicino o coincidente con quello della similitudine; in frasi negative, indica indiscutibile superiorità di un termine sull'altro, espresso o sottinteso, che in taluni casi può essere assoluta.
+						</gloss>
+					</item>
+					
+					<label>
+						<term xml:id="images" xml:lang="fr">Image</term>
+						<term ref="#images" xml:lang="it">Immagine</term> 
+					</label>
+					<item>
+						<gloss target="#images" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagine">
+							Un'<hi rend="bold">immagine</hi> è una rappresentazione visiva, non solida, della realtà. In particolare un'immagine può rappresentare la realtà fisica (in modo più o meno realistico) oppure una realtà fittizia o astratta.
+						</gloss>
+					</item>
+					
+					<label>
+						<term xml:id="idée" xml:lang="fr">Idée</term>
+						<term ref="#idée" xml:lang="it">Idea</term> 
+					</label>
+					<item>
+						<gloss target="#idée" xml:lang="it" source="https://it.wikipedia.org/wiki/Idea">
+							<hi rend="bold">Idea</hi> è un termine usato sin dagli albori della filosofia, indicante in origine un'essenza primordiale e sostanziale, ma che oggi ha assunto nel linguaggio comune un significato più ristretto, riferibile in genere a una rappresentazione o un "disegno" della mente.
+						</gloss>
+					</item>
+					
+					<label>
+						<term xml:id="mot" xml:lang="fr">Mot</term>
+						<term ref="#mot" xml:lang="it">Parola</term> 
+					</label>
+					<item>
+						<gloss target="#mot" xml:lang="it" source="https://it.wikipedia.org/wiki/Parola">
+							La <hi rend="bold">parola</hi> è l'espressione orale o scritta di un'informazione o di un concetto. In morfologia la parola è definita come un elemento linguistico costituito da un morfema libero o da una sequenza di morfemi legati. In sintassi si fa riferimento alla parola come a un'entità della frase associata a una determinata parte del discorso.
+							<!--<br/>-->Elemento basilare della comunicazione verbale, la parola assume in questa il ruolo di unità minima di trasmissione dei concetti.
+						</gloss>
+					</item>
+					
+					<label>
+						<term xml:id="parler" xml:lang="fr">Parler</term>
+						<term ref="#parler" xml:lang="it">Parlare</term> 
+					</label>
+					<item>
+						<gloss target="#parler" xml:lang="it" source="https://www.treccani.it/vocabolario/parlare/">
+							<hi rend="bold">Parlare</hi> significa pronunciare suoni articolati, dire delle parole esprimere, per mezzo del linguaggio, pensieri e sentimenti.
+						</gloss>
+					</item>
+					
+					<label>
+						<term xml:id="antehistorique" xml:lang="fr">Antehistorique</term>
+						<term ref="#antehistorique" xml:lang="it">Antestorico</term> 
+					</label>
+					<item>
+						<gloss target="#antehistorique" xml:lang="it" source="https://www.treccani.it/vocabolario/antistorico/"> <!--Ma antestorico e antistorico sono la stessa cosa?-->
+							<hi rend="bold">Antistorico</hi> è ciò che va contro la storia, che non risponde alla verità storica; che non risponde alle esigenze dei tempi, detto, nella polemica politica, di tendenza o movimento di idee giudicati contrari allo spirito della propria epoca, soprattutto perché legati ad analisi, valori, schemi ormai superati.
+						</gloss>
+					</item>
+				</list>
+
+				<!-- Riferimenti bibiografici -->
+				<listBibl>					
+					<bibl xml:id="ACLib" xml:lang="fr">
+						<author ref="#AC">
+							<forename>Alessandro</forename>
+							<surname>Chidichimo</surname>
+						</author>
+						<title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+						<pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
+						<publisher>Librairie Droz</publisher>
+						<date when="2009">2009</date>
+					</bibl>
+					
+					<bibl xml:id="EFLib">
+						<author xml:id="EmanueleF">
+							<forename>Emanuele</forename>
+							<surname>Fadda</surname>
+						</author>
+						<title type="main" level="m">Lingua e mente sociale</title>
+						<title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+						<pubPlace><placeName ref="#acireale">Acireale</placeName></pubPlace>
+						<publisher>Bonanno Editore</publisher>
+						<date when="2006">2006</date>
+						<biblScope unit="volume">1</biblScope>
+					</bibl>
+					
+					<bibl xml:id="TDMLib">
+						<author ref="#FDS">
+							<forename>Ferdinand</forename>
+							<surname>De Saussure</surname>
+						</author>
+						<author xml:id="TDM">
+							<forename>Tullio</forename>
+							<surname>De Mauro</surname>
+						</author>
+						<title>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</title>
+						<pubPlace><placeName ref="#roma">Roma</placeName></pubPlace>
+						<date when="1976">1976</date>
+						<publisher>Editori Laterza</publisher>
+					</bibl>
+				</listBibl>
+				
+				<listPlace>
+					<place xml:id="ginevra">
+						<placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+						<settlement>Ginevra</settlement>
+						<country>Svizzera</country>
+					</place>
+					<place xml:id="acireale">
+						<placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+						<settlement type="region">Sicilia</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="roma">
+						<placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+						<settlement type="region">Lazio</settlement>
+						<country>Italia</country>
+					</place>
+				</listPlace>
+			
+			</div>
+		</back>
+	</text>
+</TEI>		

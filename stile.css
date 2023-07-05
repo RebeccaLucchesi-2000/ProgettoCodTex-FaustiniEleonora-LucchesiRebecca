@@ -1,0 +1,230 @@
+/* Reset dei margini e dei padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stile del corpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  line-height: 1.6;
+}
+
+/* Intestazione */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.flexbox {
+  display: flex; /* Imposta il contenitore come flexbox */
+}
+
+.text {
+  flex: 1; /* Fattore di flessibilità per il div del testo */
+}
+
+img{
+  width: 100%;
+}
+
+add, abbr, del{
+  display: none;
+}
+
+
+.legend {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend li {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.legend li span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.mentioned, mentioned {
+  background-color: #00BFFF; /* Blu */
+}
+
+.term, term {
+  background-color:  #FFD700; /* Giallo */
+}
+
+.etc, persName {
+  background-color: #FFA07A; /* Rosso-arancio */
+}
+
+.place, placename, placeName {
+  background-color: #59ff1c; /* Rosso-arancio */
+}
+
+
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 18px;
+}
+
+/* Navigazione */
+.navMenu {
+  background-color: #eee;
+  padding: 10px;
+}
+
+.navMenu ul {
+  list-style: none;
+}
+
+.navMenu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navMenu a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Contenuto principale */
+div {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Caratteristiche */
+article h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Storia editoriale */
+#history {
+  margin-top: 20px;
+}
+
+#history h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#history h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Descrizione fisica */
+#history h3 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Legenda */
+.legenda h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.legenda ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.legenda li {
+  margin-bottom: 5px;
+}
+
+.legenda span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+/* Pagine */
+article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* Appendice */
+#append {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#append h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#append p {
+  margin-bottom: 5px;
+}
+
+/* Traduzioni */
+#traduzionepag18,
+#traduzionepag19 {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Immagini */
+.img {
+  height: fit-content;
+  background-color: #ccc;
+  margin-right: 20px;
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Testo */
+.text,
+.testo {
+  margin-top: 10px;
+}
+
+/* Bottoni */
+#bottoni {
+  margin-top: 20px;
+}
+
+#bottoni h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#bottoni button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+/* Riferimenti */
+#about {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#append p:last-child {
+  margin-bottom: 0;
+}

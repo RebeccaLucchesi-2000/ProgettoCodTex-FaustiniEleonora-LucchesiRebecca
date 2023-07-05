@@ -168,12 +168,6 @@
         </del>
     </xsl:template>
 
-    <xsl:template match="tei:placeName">
-        <placename>
-            <xsl:apply-templates />
-        </placename>
-    </xsl:template>
-
     <xsl:template match="tei:persName">
         <persName>
             <xsl:apply-templates />
@@ -256,6 +250,12 @@
         </xsl:element>
     </xsl:template>
 
+
+    <xsl:template match="tei:placeName | tei:country">
+            <placename>
+                <xsl:apply-templates />
+            </placename>
+    </xsl:template>
 
 
     
